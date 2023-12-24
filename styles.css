@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    margin: 0;
+    font-family: cursive;
+    height: 100vh; /* กำหนดความสูงของ body เต็มหน้าจอ */
+    background: linear-gradient(to right, #cce5f9 50%, #141288 50%);
+  }
+  
+  .login-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .image-container {
+    flex: 1;
+  }
+  
+  .image-container img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .form-container {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .login-form {
+
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .login-form label,
+  .login-form input,
+  .login-form select {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .login-form input[type="text"],
+  .login-form input[type="password"],
+  .login-form select {
+    width: 100%;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  .login-form input[type="submit"] {
+    width: 15%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #29ce4d;
+ 
+    cursor: pointer;
+  }
+  /* CSS สำหรับ Card */
+  .card {
+    width: 1000px;
+    height: 620px;
+    margin: 50px auto;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 50px rgba(9, 9, 9, 0.268);
+    background-image: url('photo/bbbg.jpg'); /* เพิ่ม URL ของรูปภาพที่ต้องการ */
+    background-size: cover; /* ปรับขนาดของภาพให้เต็มพื้นที่ */
+    background-position: center; /* จัดการให้รูปอยู่ตรงกลาง */
+  }
+  
+  /* ส่วนที่แสดงรูปภาพ */
+  .image-container {
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .image-container img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* ส่วนของแบบฟอร์ม */
+  .form-container {
+    padding: 20px;
+  }
+  
+  .form-container h1 {
+    text-align: center;
+  }
+  
+  /* ปุ่ม Submit และ Cancel */
+  .submit-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+  }
+  
+  
+  .button-group {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+  }
+  
